@@ -17,7 +17,7 @@ var user = firebase.auth().currentUser;
 firebase.auth().onAuthStateChanged(user => {
     if (user) {
         console.log(user.email);
-        document.getElementById("display").innerHTML = "how do you impact pollution, " + user.displayName + "?";
+        document.getElementById("display").innerHTML = "how do you impact sustainability, " + user.displayName + "?";
         document.getElementById("id_u").value=user.uid;
         document.getElementById("id_u").style.display = "none";
         document.getElementById("mail_u").value=user.email;
