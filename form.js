@@ -4,12 +4,12 @@
 
 var user = firebase.auth().currentUser;
 // var uid;
-// document.getElementById("name").innerHTML = "Fuck you";
+// document.getElementById("name").innerHTML = "duck you";
 
 
 // if(user != null){
 //     uid = user.email;
-//     document.getElementById("name").innerHTML = "Fuck you";
+//     document.getElementById("name").innerHTML = "duck you";
 //     console.log();
 // }
 
